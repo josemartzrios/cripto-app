@@ -529,20 +529,20 @@ footer .left li a{
 }
 
 
-@media (min-width: 375px) {
+@media screen and (min-width: 375px) {
     
     .header--title-container .header--button{
         left: 38px;
     }
 }
 
-@media (min-width: 425px){
+@media screen and (min-width: 425px){
     .header--title-container .header--button{
         left: 68px;
     }
 }
 
-@media (min-width: 768px){
+@media screen and (min-width: 768px){
     
     .header--title-container .header--button{
         left: 248px;
@@ -554,7 +554,7 @@ footer .left li a{
     }
 }
 
-@media (min-width: 930px){
+@media screen and (min-width: 930px){
 
     .main-tables-container{
         display: flex;
@@ -574,7 +574,7 @@ footer .left li a{
     }
 }
 
-@media (min-width: 1024px){
+@media screen and (min-width: 1024px){
     
     .header--title-container .header--button{
         left: 368px;
@@ -586,14 +586,14 @@ footer .left li a{
     }
 }
 
-@media (min-width: 1440px){
+@media screen and (min-width: 1440px){
     
     .header--title-container .header--button{
         left: 568px;
     }
 }
 
-@media (min-width: 2560px){
+@media screen and (min-width: 2560px){
     
     .header--title-container .header--button{
         left: 1120px;
