@@ -454,8 +454,8 @@ main{
     font-size: 1.2rem;
     font-weight: 300;
     position: absolute;
-    top: 36px;
-    right: 153px;
+    top: 40px;
+    right: 133px;
 }
 
 
@@ -536,6 +536,24 @@ footer .left li a{
     }
 }
 
+@media (min-width: 425px){
+    .header--title-container .header--button{
+        left: 68px;
+    }
+}
+
+@media (min-width: 768px){
+    
+    .header--title-container .header--button{
+        left: 248px;
+    }
+
+    .plans-container--slider .plan-card--price span{
+        top: 40px;
+        right: 143px;
+    }
+}
+
 @media (min-width: 930px){
 
     .main-tables-container{
@@ -556,4 +574,29 @@ footer .left li a{
     }
 }
 
+@media (min-width: 1024px){
+    
+    .header--title-container .header--button{
+        left: 368px;
+    }
+
+    .plans-container--slider .plan-card--price span{
+        top: 40px;
+        right: 183px;
+    }
+}
+
+@media (min-width: 1440px){
+    
+    .header--title-container .header--button{
+        left: 568px;
+    }
+}
+
+@media (min-width: 2560px){
+    
+    .header--title-container .header--button{
+        left: 1120px;
+    }
+}
  
